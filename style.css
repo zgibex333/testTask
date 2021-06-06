@@ -35,6 +35,24 @@ body {
 .menu-link:focus {
   color:#ff3946;
 }
+.contact-us-btn:focus {
+  transition: all 0.5s ease-in-out;
+  background: #314584;
+  cursor: pointer;
+  color: white;
+}
+.btn-main-touch:focus {
+  transition: all 0.5s ease-in-out;
+  background: #314584;
+  cursor: pointer;
+  color: white;
+}
+.btn-main-more:focus {
+  transition: all 0.5s ease-in-out;
+  background: #314584;
+  cursor: pointer;
+  color: white;
+}
 .hidden {
   overflow: hidden;
 }
