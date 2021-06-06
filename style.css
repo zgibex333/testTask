@@ -32,31 +32,6 @@ body {
   clip-path: circle(50px at 100% -10%);
   -webkit-clip-path: circle(50px at 100% -10%);
 }
-.menu-link:focus,
-.menu-link:active {
-  color: #ff3946;
-}
-.contact-us-btn:focus,
-.contact-us-btn:active {
-  transition: all 0.5s ease-in-out;
-  background: #314584;
-  cursor: pointer;
-  color: white;
-}
-.btn-main-touch:focus,
-.btn-main-touch:active {
-  transition: all 0.5s ease-in-out;
-  background: #314584;
-  cursor: pointer;
-  color: white;
-}
-.btn-main-more:focus,
-.btn-main-more:active {
-  transition: all 0.5s ease-in-out;
-  background: #314584;
-  cursor: pointer;
-  color: white;
-}
 
 .hidden {
   overflow: hidden;
