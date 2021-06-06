@@ -322,57 +322,7 @@ footer {
   }
 }
 
-/* 768px */
-
-/* @media (min-width: 768px) {
-  .main-buttons {
-    flex-direction: row;
-    justify-content: flex-start;
-  }
-  .btn {
-    width: 40%;
-    margin-right: 1em;
-  }
-  .btn-main-touch {
-    color: #314584;
-    background: none;
-    cursor: pointer;
-    display: inline;
-    width: fit-content;
-  }
-  .portf-grid {
-    margin: 2em 0em;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 1em;
-  }
-
-  form {
-    display: grid;
-    grid-template-columns: [start] 1fr [col1] 1fr [col-end];
-    grid-template-rows: [start] 1fr [row1] 2fr [row-end];
-    grid-gap: 1.5em;
-  }
-  input {
-    margin: 0;
-  }
-  textarea {
-    grid-row: row1 / row-end;
-    grid-column: start / col-end;
-  }
-
-  .footer-nav {
-    flex-direction: row;
-    justify-content: space-between;
-    width: 70%;
-  }
-} */
-
 @media (min-width: 769px) {
-  body {
-    /* background: aqua; */
-  }
   .container {
     max-width: 1167px;
     padding: 0;
