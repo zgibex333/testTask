@@ -32,6 +32,9 @@ body {
   clip-path: circle(50px at 100% -10%);
   -webkit-clip-path: circle(50px at 100% -10%);
 }
+.menu-link:focus {
+  color:#ff3946;
+}
 .hidden {
   overflow: hidden;
 }
