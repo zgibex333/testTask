@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Doob</title>
+  </head>
+  <body>
+    <header class="header" id="idHome">
+      <div class="container">
+        <div class="header-inner">
+          <div class="logo">
+            <a href="#" class="logo-link"
+              ><img src="./assets/Logo.png" alt=""
+            /></a>
+          </div>
+
+          <div class="burger">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+          </div>
+          <nav class="header-nav">
+            <a href="#idHome" class="header-link">Home.</a>
+            <a href="#idAboutUs" class="header-link">About us.</a>
+            <a href="#idPortfolio" class="header-link">Portfolio.</a>
+            <a href="#" class="header-link">Blog.</a>
+            <a href="#idContact" class="header-link">Contact us.</a>
+          </nav>
+          <div class="settings">
+            <div class="lang-field">
+              <select name="language" class="lang">
+                <option value="1">EN</option>
+                <option value="2">RU</option>
+              </select>
+            </div>
+            <button class="contact-button">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main" id="idAboutUs">
+      <div class="container">
+        <div class="main-info">
+          <h1 class="main-title">The Spirit of Digital Agency.</h1>
+          <p class="main-text">
+            Vestibulum ac diam sit amet quam vehicula elementum amet est on dui.
+            Nulla porttitor accumsan tincidunt.
+          </p>
+          <div class="main-buttons">
+            <button class="btn btn-main-more">More About us</button>
+            <button class="btn btn-main-touch">Get in Touch.</button>
+          </div>
+          <div class="slider">
+            <div class="slider-item">
+              <img src="./assets/Illustration.png" alt="" />
+            </div>
+            <div class="slider-item">
+              <img src="./assets/Illustration.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section id="idPortfolio" class="portfolio">
+      <div class="container">
+        <h2 class="portf-title">See some of our Creative work.</h2>
+        <div class="portf-grid">
+          <div class="potf-grid-item"></div>
+          <div class="potf-grid-item"></div>
+          <div class="potf-grid-item"></div>
+          <div class="potf-grid-item"></div>
+          <div class="potf-grid-item"></div>
+          <div class="potf-grid-item"></div>
+        </div>
+        <a href="#" class="portf-more">See More of These.</a>
+      </div>
+    </section>
+    <section class="contact-us" id="idContact">
+      <div class="container">
+        <p class="contact">CONTACT US</p>
+        <h2 class="contact-title">Get in Touch</h2>
+        <form action="">
+          <input type="email" name="email" placeholder="Your email" />
+          <input type="text" name="subject" placeholder="Subject" />
+          <textarea
+            rows="5"
+            cols="25"
+            class="input-message"
+            type="text"
+            name="message"
+            placeholder="Message here..."
+          ></textarea>
+        </form>
+        <button class="contact-us-btn" type="submit">Send Message</button>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-inner">
+          <p class="footer-logo">DOOB</p>
+          <h2 class="footer-title">CREATIVITY ABOVE</h2>
+          <nav class="footer-nav">
+            <a href="#idHome" class="nav-links">Home.</a>
+            <a href="#idAboutUs" class="nav-links">About us.</a>
+            <a href="#idPortfolio" class="nav-links">Portfolio.</a>
+            <a href="#" class="nav-links">Blog.</a>
+            <a href="#idContact" class="nav-links">Contact us.</a>
+          </nav>
+          <div class="all-rights">
+            <span>&copy</span> 2019 - Doob,All Right Reserved
+          </div>
+          <div class="socials">
+            <div class="social">
+              <a href=""><img src="./assets/Facebook.svg" alt="" /></a>
+            </div>
+            <div class="social">
+              <a href=""><img src="./assets/Twitter.svg" alt="" /></a>
+            </div>
+            <div class="social">
+              <a href=""><img src="./assets/Dribble.svg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="menu">
+      <div class="menu-nav">
+        <a href="#idHome" class="menu-link">Home.</a>
+        <a href="#idAboutUs" class="menu-link">About us.</a>
+        <a href="#idPortfolio" class="menu-link">Portfolio.</a>
+        <a href="#" class="menu-link">Blog.</a>
+        <a href="#idContact" class="menu-link">Contact us.</a>
+      </div>
+      <div class="menu-lang">
+        <select name="language" class="lang">
+          <option value="1">EN</option>
+          <option value="2">RU</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./scripts/slick.min.js"></script>
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>
