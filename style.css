@@ -688,6 +688,10 @@ footer {
     padding-left: 14px;
   }
   @media (max-width: 1670px) {
+    html, body {
+      max-width: 100%;
+      overflow-x: hidden;
+  }
     .container {
       padding: 0 20px;
     }
