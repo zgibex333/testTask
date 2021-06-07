@@ -479,6 +479,7 @@ footer {
     width: 680px;
     height: 660px;
     z-index: 0;
+    cursor: col-resize;
   }
 
   .slick-track {
